@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>VPEF_Plant_Rose</defName>
+		<label>rose</label>
+		<thingClass>VEF.Plants.Plant_Blooming</thingClass>
+		<description>A beautiful cultivated flower, the rose has been a symbol of love since Earth's ancient era.\n\nBlooms from 10th day of spring to 5th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Beauty>14</Beauty>
+			<BeautyOutdoors>14</BeautyOutdoors>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Roses/Roses</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<ingestible>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<leaflessGraphicPath>Things/Flowers/Roses/Roses_Leafless</leaflessGraphicPath>
+			<harvestTag>Standard</harvestTag>
+			<sowWork>750</sowWork>
+			<sowTags>
+				<li>Ground</li>
+				<li>Decorative</li>
+			</sowTags>
+			<growMinGlow>0.3</growMinGlow>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>1.5</growDays>
+			<lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+			<visualSizeRange>0.3~1.05</visualSizeRange>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>14</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Roses/Roses_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>10</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>5</BloomDayEnd>
+				<BloomTemperatureMin>12</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-15</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

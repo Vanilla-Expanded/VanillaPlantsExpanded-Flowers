@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+	<VPE_RealAge>Age: {0}</VPE_RealAge>
+	<VPE_BeautyByAge>Beauty by age: +{0}</VPE_BeautyByAge>
+	<VPE_BeautyByBloming>Beauty by blooming: x{0}</VPE_BeautyByBloming>
+	<VPE_BeautyByLeafless>Leafless beauty: {0}</VPE_BeautyByLeafless>
+	<VPE_MustBeGrown>Plant must be fully grown before you can add age to it</VPE_MustBeGrown>
 	
 </LanguageData>
