@@ -456,4 +456,328 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Amaryllis</defName>
+		<label>amaryllis</label>
+		<description>A majestic, showy bulb flower known for its large, trumpet-shaped blooms and long, elegant stalks. It is highly valued for its striking beauty and ability to bloom during the deep cold, when conditions are right.\n\nBlooms from 10th day of winter to 5th day of spring.</description>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Beauty>15</Beauty>
+			<BeautyOutdoors>15</BeautyOutdoors>
+			
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Amaryllis/Amaryllis</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Amaryllis/Amaryllis_Leafless</leaflessGraphicPath>
+			<growDays>1.8</growDays>
+			<sowWork>800</sowWork>
+			<harvestWork>300</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>8</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Amaryllis/Amaryllis_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Winter</BloomSeasonStart>
+				<BloomDayStart>10</BloomDayStart>
+				<BloomSeasonStop>Spring</BloomSeasonStop>
+				<BloomDayEnd>5</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>3.5</BloomBeautyModifier>
+				<DeadlyColdTemperature>-10</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Daffodil</defName>
+		<label>daffodil</label>
+		<description>A classic, cheerful spring flower known for its trumpet-shaped central corona and wide petals. It's an early bloomer, symbolizing new beginnings and unrequited love.\n\nBlooms from 5th day of spring to 12th day of spring.</description>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>10</BeautyOutdoors>
+			
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Daffodil/Daffodil</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Daffodil/Daffodil_Leafless</leaflessGraphicPath>
+			<growDays>1</growDays>
+			<sowWork>600</sowWork>
+			<harvestWork>200</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>10</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Daffodil/Daffodil_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Spring</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>6</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-40</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Hibiscus</defName>
+		<label>hibiscus</label>
+		<description>A large, woody shrub famous for its massive, tropical-looking, trumpet-shaped flowers that bloom continuously in warm weather. Much more beautiful outside than inside. A symbol of delicate beauty and a warm climate staple.\n\nBlooms from 1st day of summer to 10th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>16</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Hibiscus/Hibiscus</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Hibiscus/Hibiscus_Leafless</leaflessGraphicPath>
+			<growDays>7</growDays>
+			<sowWork>1500</sowWork>
+			<harvestWork>500</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>24</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Hibiscus/Hibiscus_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>18</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-5</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Chrysanthemum</defName>
+		<label>chrysanthemum</label>
+		<description>A widely cultivated flowering plant known for its diverse forms and colors, often blooming in the late year. It is a symbol of joy and a long, vibrant life. Its flowers are much more beautiful outside than inside, especially when fully bloomed.\n\nBlooms from 5th day of fall to 10th day of winter.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>18</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Chrysanthemum/Chrysanthemum</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Chrysanthemum/Chrysanthemum_Leafless</leaflessGraphicPath>
+			<growDays>1.8</growDays>
+			<sowWork>800</sowWork>
+			<harvestWork>300</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>8</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Chrysanthemum/Chrysanthemum_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Fall</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Winter</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-15</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Aster</defName>
+		<label>aster</label>
+		<description>A star-shaped, daisy-like flower, often with purple-blue petals, famous for providing vibrant color in the late season. It is a symbol of patience and elegance.\n\nBlooms from 10th day of summer to 10th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Beauty>11</Beauty>
+			<BeautyOutdoors>11</BeautyOutdoors>
+			
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Aster/Aster</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Aster/Aster_Leafless</leaflessGraphicPath>
+			<growDays>1.5</growDays>
+			<sowWork>750</sowWork>
+			<harvestWork>250</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>12</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Aster/Aster_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>10</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-25</DeadlyColdTemperature>
+				<LeaflessBeauty>-4</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Sedum</defName>
+		<label>sedum</label>
+		<description>Sedums are tough, succulent plants known for their fleshy leaves and star-shaped flower clusters that bloom for a long season. Unlike other plants, they do not enter a leafless state in cold temperatures.\n\nBlooms from 5th day of summer to 10th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>6</Beauty>
+			<BeautyOutdoors>6</BeautyOutdoors>
+			
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Sedum/Sedum</texPath>
+		</graphicData>
+		<plant>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.5~0.8</visualSizeRange>
+			<growDays>1.5</growDays>
+			<sowWork>750</sowWork>
+			<harvestWork>250</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>6</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Sedum/Sedum_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>4</BloomBeautyModifier>				
+			
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Strelitzia</defName>
+		<label>strelitzia</label>
+		<description>An iconic, tropical perennial known as the 'Bird of Paradise' flower. Its crane-like, vibrant orange and blue blooms make it one of the most striking and beautiful plants in a garden. When it withers, it’s incredibly difficult to look at.\n\nBlooms continuously from 5th day of spring to 10th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>20</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Strelitzia/Strelitzia</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Strelitzia/Strelitzia_Leafless</leaflessGraphicPath>
+			<growDays>5</growDays>
+			<sowWork>1400</sowWork>
+			<harvestWork>500</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>24</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Strelitzia/Strelitzia_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>15</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>3</BloomBeautyModifier>
+				<DeadlyColdTemperature>-5</DeadlyColdTemperature>
+				<LeaflessBeauty>-8</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Plumeria</defName>
+		<label>plumeria</label>
+		<description>A tropical flowering tree, also known as frangipani, famous for its intensely fragrant, waxy, pinwheel-shaped flowers. It is a symbol of perfection and spring in tropical climates.\n\nBlooms continuously from 1st day of summer to 14th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>18</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Plumeria/Plumeria</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Plumeria/Plumeria_Leafless</leaflessGraphicPath>
+			<growDays>5.5</growDays>
+			<sowWork>1300</sowWork>
+			<harvestWork>450</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>20</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Plumeria/Plumeria_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>14</BloomDayEnd>
+				<BloomTemperatureMin>17</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-5</DeadlyColdTemperature>
+				<LeaflessBeauty>-4</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Peony</defName>
+		<label>peony bush</label>
+		<description>A dense, long-lived shrub known for its large, fragrant, lush blooms. Peonies are slow to establish, but a mature plant can live for decades, rewarding the grower with increasing beauty year after year.\n\nBlooms from 1st day of spring to 5th day of summer.</description>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>10</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Peony/Peony</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Peony/Peony_Leafless</leaflessGraphicPath>
+			<growDays>4</growDays>
+			<sowWork>1200</sowWork>
+			<harvestWork>400</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>4</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>40</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Peony/Peony_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Summer</BloomSeasonStop>
+				<BloomDayEnd>5</BloomDayEnd>
+				<BloomTemperatureMin>8</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-45</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>
