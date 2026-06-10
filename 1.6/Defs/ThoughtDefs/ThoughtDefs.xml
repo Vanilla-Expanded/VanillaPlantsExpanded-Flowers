@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>VPEF_PansyAroma</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>VPEF_PansyAroma</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		
+		<stages>
+			<li>
+				<label>pansy aroma</label>
+				<description>The smell of blooming pansies is amazing.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

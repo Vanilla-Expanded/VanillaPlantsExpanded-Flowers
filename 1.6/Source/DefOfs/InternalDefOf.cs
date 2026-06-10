@@ -14,6 +14,9 @@ namespace VanillaPlantsExpandedFlowers
 		{
 			DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));
 		}
-		
-	}
+
+		public static ThingDef VPEF_Plant_Marigold;
+
+
+    }
 }
