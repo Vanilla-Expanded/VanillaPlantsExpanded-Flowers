@@ -17,6 +17,7 @@
 		</graphicData>
 		<altitudeLayer>Item</altitudeLayer>
 		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<ingestible>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>

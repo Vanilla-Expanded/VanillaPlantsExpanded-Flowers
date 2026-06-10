@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 	<VPE_RealAge>Age: {0}</VPE_RealAge>
+	<VPE_FlowerIsBlooming>Flower is blooming</VPE_FlowerIsBlooming>
 	<VPE_BeautyByAge>Beauty by age: +{0}</VPE_BeautyByAge>
 	<VPE_BeautyByBloming>Beauty by blooming: x{0}</VPE_BeautyByBloming>
 	<VPE_BeautyByLeafless>Leafless beauty: {0}</VPE_BeautyByLeafless>
@@ -19,5 +20,9 @@
 	<VPE_CantBloom>If the blooming stops due to low temperature, this flower won't be able to bloom again until next year!</VPE_CantBloom>
 	<VPE_DeadlyColdTemperature>Deadly cold temperature</VPE_DeadlyColdTemperature>
 	<VPE_DeadlyColdTemperature_Desc>Below this temperature, the plant will start dying.</VPE_DeadlyColdTemperature_Desc>
+	<VPE_ExtractFlower>Extract flower</VPE_ExtractFlower>
+	<VPE_ExtractFlower_Desc>Extract this flower while keeping it alive, so that it can be replanted elsewhere.</VPE_ExtractFlower_Desc>
+	<VPE_CancelExtractFlower>Cancel extraction</VPE_CancelExtractFlower>
+	<VPE_CancelExtractFlower_Desc>Cancel extracting this flower.</VPE_CancelExtractFlower_Desc>
 	
 </LanguageData>
