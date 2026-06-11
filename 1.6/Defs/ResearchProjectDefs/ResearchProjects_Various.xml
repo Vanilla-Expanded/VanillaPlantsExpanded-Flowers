@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>VPEF_Horticulture</defName>
+		<label>horticulture</label>
+		<description>Unlock the ability to cultivate various decorative blooming flowers to beautify your colony.</description>
+		<baseCost>1000</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Neolithic</techLevel>		
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>6</researchViewY>
+		
+	</ResearchProjectDef>
+</Defs>

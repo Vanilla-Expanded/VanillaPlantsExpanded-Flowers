@@ -7,6 +7,7 @@
 			<li Class="VEF.Plants.StatPart_BeautyByAge"/>
 			<li Class="VEF.Plants.StatPart_BeautyByLeafless"/>
 			<li Class="VEF.Plants.StatPart_BeautyByBlooming"/>
+			<li Class="VEF.Plants.StatPart_BeautyByWeeds"/>
 		</value>
 	</Operation>
 </Patch>

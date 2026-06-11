@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IncidentDef>
+		<defName>VPEF_Weeds</defName>
+		<label>weeds</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>VEF.Plants.IncidentWorker_Weeds</workerClass>
+		<baseChance>0.3</baseChance>
+		<minRefireDays>30</minRefireDays>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+</Defs>

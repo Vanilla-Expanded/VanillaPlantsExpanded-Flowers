@@ -86,6 +86,9 @@
 				<li>Ground</li>
 				<li>Decorative</li>
 			</sowTags>
+			<sowResearchPrerequisites>
+				<li>VPEF_Horticulture</li>
+			</sowResearchPrerequisites>
 			<growMinGlow>0.3</growMinGlow>
 			<topWindExposure>0.1</topWindExposure>
 			<growDays>1.5</growDays>
