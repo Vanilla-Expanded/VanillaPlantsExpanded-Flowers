@@ -464,7 +464,6 @@
 			<MaxHitPoints>70</MaxHitPoints>
 			<Beauty>15</Beauty>
 			<BeautyOutdoors>15</BeautyOutdoors>
-			
 		</statBases>
 		<graphicData>
 			<texPath>Things/Flowers/Amaryllis/Amaryllis</texPath>
@@ -500,7 +499,6 @@
 			<MaxHitPoints>60</MaxHitPoints>
 			<Beauty>10</Beauty>
 			<BeautyOutdoors>10</BeautyOutdoors>
-			
 		</statBases>
 		<graphicData>
 			<texPath>Things/Flowers/Daffodil/Daffodil</texPath>
@@ -608,7 +606,6 @@
 			<MaxHitPoints>70</MaxHitPoints>
 			<Beauty>11</Beauty>
 			<BeautyOutdoors>11</BeautyOutdoors>
-			
 		</statBases>
 		<graphicData>
 			<texPath>Things/Flowers/Aster/Aster</texPath>
@@ -644,7 +641,6 @@
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>6</Beauty>
 			<BeautyOutdoors>6</BeautyOutdoors>
-			
 		</statBases>
 		<graphicData>
 			<texPath>Things/Flowers/Sedum/Sedum</texPath>
@@ -667,8 +663,7 @@
 				<BloomDayEnd>10</BloomDayEnd>
 				<BloomTemperatureMin>10</BloomTemperatureMin>
 				<CanBloomAgain>true</CanBloomAgain>
-				<BloomBeautyModifier>4</BloomBeautyModifier>				
-			
+				<BloomBeautyModifier>4</BloomBeautyModifier>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -776,6 +771,75 @@
 				<CanBloomAgain>false</CanBloomAgain>
 				<BloomBeautyModifier>2</BloomBeautyModifier>
 				<DeadlyColdTemperature>-45</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Saintpaulia</defName>
+		<label>saintpaulia</label>
+		<description>A small, fuzzy-leafed perennial, commonly known as the african violet. It produces clusters of dainty, colorful flowers almost continuously, making it a highly prized indoor ornamental. It thrives only in stable, warm conditions.\n\nBlooms almost continuously, but only when the temperature is right. It will die if temperature falls below 5C.</description>
+		<statBases>
+			<MaxHitPoints>65</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>12</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Saintpaulia/Saintpaulia</texPath>
+		</graphicData>
+		<plant>
+			<growDays>1</growDays>
+			<sowWork>500</sowWork>
+			<harvestWork>200</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>16</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Saintpaulia/Saintpaulia_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Winter</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>15</BloomDayEnd>
+				<BloomTemperatureMin>16</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>1.5</BloomBeautyModifier>
+				<DeadlyColdTemperature>5</DeadlyColdTemperature>
+				<DamageWhenBelowDeadlyTemp>65</DamageWhenBelowDeadlyTemp>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Lily</defName>
+		<label>lily</label>
+		<description>A stately and elegant perennial flower, known for its large, showy, trumpet-shaped blooms atop a single stem. It grows from a bulb and brings dramatic color to the summer garden.\n\nBlooms from 5th day of summer to 5th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>12</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Lily/Lily</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/Lily/Lily_Leafless</leaflessGraphicPath>
+			<growDays>1.5</growDays>
+			<sowWork>750</sowWork>
+			<harvestWork>250</harvestWork>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>18</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Lily/Lily_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>5</BloomDayEnd>
+				<BloomTemperatureMin>12</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>2.5</BloomBeautyModifier>
+				<DeadlyColdTemperature>-35</DeadlyColdTemperature>
 				<LeaflessBeauty>-2</LeaflessBeauty>
 			</li>
 		</modExtensions>

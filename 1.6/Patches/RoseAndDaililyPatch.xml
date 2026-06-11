@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Rose"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Flowers/Roses/Roses_Blooming</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Daylily"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Flowers/Daylily/Daylily_Blooming</texPath>
+		</value>
+	</Operation>
+</Patch>
