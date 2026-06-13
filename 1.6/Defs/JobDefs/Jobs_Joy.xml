@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>VPEF_SmellingFlowers</defName>
+		<driverClass>VanillaPlantsExpandedFlowers.JobDriver_SmellingFlowers</driverClass>
+		<reportString>smelling flowers.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyKind>VPEF_SmellingFlowers</joyKind>
+		<isCrawlingIfDowned>false</isCrawlingIfDowned>
+	</JobDef>
+</Defs>

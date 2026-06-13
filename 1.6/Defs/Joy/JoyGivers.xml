@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JoyGiverDef>
+		<defName>VPEF_SmellingFlowers</defName>
+		<giverClass>VanillaPlantsExpandedFlowers.JoyGiver_SmellingFlowers</giverClass>
+		<baseChance>1</baseChance>
+		<jobDef>VPEF_SmellingFlowers</jobDef>
+		<joyKind>VPEF_SmellingFlowers</joyKind>
+		<requiredCapacities>
+			<li>Breathing</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+</Defs>
