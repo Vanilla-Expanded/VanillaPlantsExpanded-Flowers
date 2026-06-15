@@ -24,5 +24,12 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<packageId>VanillaExpanded.VPEFlowers</packageId>
-	<description></description>
+	<description>Vanilla Plants Expanded - Flowers adds a variety of new, decorative flora to your colony, enriching your gardens with a dynamic, season-based blooming system. Here is what you can expect:
+
+- Flowers follow specific blooming schedules throughout the year. During these periods, they reach peak beauty, while outside these times, they appear as standard, basic plants.
+
+- Flowers are not static; they age over time. Older plants receive stacking beauty bonuses, meaning a well-tended garden becomes progressively more stunning as your colony matures.
+
+- Be prepared for winter, when many flowers shed their leaves and enter a dormant state, providing negative beauty. You will need to manage your garden's health through changing temperatures.
+</description>
 </ModMetaData>
