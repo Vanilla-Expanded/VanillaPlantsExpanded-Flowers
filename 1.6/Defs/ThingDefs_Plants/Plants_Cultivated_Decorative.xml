@@ -230,7 +230,7 @@
 				<bloomGraphicPath>Things/Flowers/Tulip/Tulip_Blooming</bloomGraphicPath>
 				<BloomSeasonStart>Spring</BloomSeasonStart>
 				<BloomDayStart>3</BloomDayStart>
-				<BloomSeasonStop>Summer</BloomSeasonStop>
+				<BloomSeasonStop>Spring</BloomSeasonStop>
 				<BloomDayEnd>10</BloomDayEnd>
 				<BloomTemperatureMin>8</BloomTemperatureMin>
 				<CanBloomAgain>false</CanBloomAgain>
