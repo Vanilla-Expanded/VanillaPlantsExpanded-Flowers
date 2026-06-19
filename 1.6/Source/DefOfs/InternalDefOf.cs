@@ -18,5 +18,7 @@ namespace VanillaPlantsExpandedFlowers
 		public static ThingDef VPEF_Plant_Marigold;
 
         public static ThingDef VPEF_Plant_RedRoseBush;
+
+		public static ResearchProjectDef VPEF_Horticulture;
     }
 }

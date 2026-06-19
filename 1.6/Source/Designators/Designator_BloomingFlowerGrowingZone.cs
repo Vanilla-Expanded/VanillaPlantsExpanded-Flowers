@@ -50,5 +50,19 @@ namespace VanillaPlantsExpandedFlowers
             PlayerKnowledgeDatabase.KnowledgeDemonstrated(ConceptDefOf.GrowingFood, KnowledgeAmount.Total);
             return new Zone_BloomingFlowerZone(Find.CurrentMap.zoneManager);
         }
+
+        public override bool Visible
+        {
+            get
+            {
+
+                if (!InternalDefOf.VPEF_Horticulture.IsFinished)
+                {
+                    return DebugSettings.godMode;
+                }
+                return true;
+
+            }
+        }
     }
 }

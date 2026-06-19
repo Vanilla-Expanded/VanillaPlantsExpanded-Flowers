@@ -9,6 +9,8 @@
 		<techLevel>Neolithic</techLevel>		
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>6</researchViewY>
-		
+		<customUnlockTexts>
+			<li>Blooming flower zone</li>
+		</customUnlockTexts>
 	</ResearchProjectDef>
 </Defs>
