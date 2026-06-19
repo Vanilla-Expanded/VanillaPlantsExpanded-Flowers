@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ============= Growing ============= -->
+
+	<WorkGiverDef>
+		<defName>VPE_HarvestFlowerZone</defName>
+		<label>harvest flowers</label>
+		<giverClass>VanillaPlantsExpandedFlowers.WorkGiver_GrowerFlowers_Harvest</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>100</priorityInType>
+		<verb>harvest flowers</verb>
+		<gerund>harvesting flowers</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>VPE_SowFlowerZone</defName>
+		<label>sow flowers</label>
+		<giverClass>VanillaPlantsExpandedFlowers.WorkGiver_GrowerFlowers_Sow</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>50</priorityInType>
+		<verb>sow flowers</verb>
+		<gerund>sowing flowers</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>
