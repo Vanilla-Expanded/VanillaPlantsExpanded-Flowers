@@ -69,7 +69,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<pathCost>30</pathCost>
+		<pathCost>20</pathCost>
 		<fillPercent>0.2</fillPercent>
 		<altitudeLayer>Item</altitudeLayer>
 		<selectable>true</selectable>
@@ -108,6 +108,7 @@
 			<BeautyOutdoors>16</BeautyOutdoors>
 			<Nutrition>0.1</Nutrition>
 		</statBases>
+		<pathCost>30</pathCost>
 		<graphicData>
 			<texPath>Things/Flowers/RedRoseBush/RedRoseBush</texPath>
 		</graphicData>
@@ -250,6 +251,7 @@
 			<BeautyOutdoors>10</BeautyOutdoors>
 			<Nutrition>0.1</Nutrition>
 		</statBases>
+		<pathCost>30</pathCost>
 		<graphicData>
 			<texPath>Things/Flowers/Hydrangea/Hydrangea</texPath>
 		</graphicData>
@@ -363,6 +365,7 @@
 		<graphicData>
 			<texPath>Things/Flowers/Lilac/Lilac</texPath>
 		</graphicData>
+		<pathCost>30</pathCost>
 		<plant>
 			<leaflessGraphicPath>Things/Flowers/Lilac/Lilac_Leafless</leaflessGraphicPath>
 			<growDays>4</growDays>
@@ -548,6 +551,7 @@
 			<sowWork>1500</sowWork>
 			<harvestWork>500</harvestWork>
 		</plant>
+		<pathCost>30</pathCost>
 		<modExtensions>
 			<li Class="VEF.Plants.BloomingPlantExtension">
 				<AgeBeautyModifier>2</AgeBeautyModifier>
@@ -683,6 +687,7 @@
 		<graphicData>
 			<texPath>Things/Flowers/Strelitzia/Strelitzia</texPath>
 		</graphicData>
+		<pathCost>30</pathCost>
 		<plant>
 			<leaflessGraphicPath>Things/Flowers/Strelitzia/Strelitzia_Leafless</leaflessGraphicPath>
 			<growDays>5</growDays>
@@ -719,6 +724,7 @@
 		<graphicData>
 			<texPath>Things/Flowers/Plumeria/Plumeria</texPath>
 		</graphicData>
+		<pathCost>30</pathCost>
 		<plant>
 			<leaflessGraphicPath>Things/Flowers/Plumeria/Plumeria_Leafless</leaflessGraphicPath>
 			<growDays>5.5</growDays>
@@ -761,6 +767,7 @@
 			<sowWork>1200</sowWork>
 			<harvestWork>400</harvestWork>
 		</plant>
+		<pathCost>30</pathCost>
 		<modExtensions>
 			<li Class="VEF.Plants.BloomingPlantExtension">
 				<AgeBeautyModifier>4</AgeBeautyModifier>
@@ -846,5 +853,205 @@
 				<LeaflessBeauty>-2</LeaflessBeauty>
 			</li>
 		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_BeardedIris</defName>
+		<label>bearded iris</label>
+		<description>A distinct perennial known for its unique, beard-like hairs on the lower petals of its large, elegant flowers. It creates a stunning visual display and grows in large clusters.\n\nBlooms from 1st day of spring to 5th day of summer.</description>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Beauty>14</Beauty>
+			<BeautyOutdoors>14</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/BeardedIris/BeardedIris</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/BeardedIris/BeardedIris_Leafless</leaflessGraphicPath>
+			<growDays>2</growDays>
+			<sowWork>900</sowWork>
+			<harvestWork>300</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.5~0.8</visualSizeRange>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>16</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/BeardedIris/BeardedIris_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Summer</BloomSeasonStop>
+				<BloomDayEnd>5</BloomDayEnd>
+				<BloomTemperatureMin>8</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2.5</BloomBeautyModifier>
+				<DeadlyColdTemperature>-30</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_FlameAzalea</defName>
+		<label>flame azalea bush</label>
+		<description>A striking, deciduous shrub known for its brilliant, flame-orange clusters of tubular flowers. It thrives in acidic soils and provides a vibrant, fire-like visual contrast in any garden.\n\nBlooms from 5th day of spring to 10th day of summer.</description>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>14</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/FlameAzalea/FlameAzalea</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/FlameAzalea/FlameAzalea_Leafless</leaflessGraphicPath>
+			<growDays>5</growDays>
+			<sowWork>1300</sowWork>
+			<harvestWork>450</harvestWork>
+		</plant>
+		<pathCost>30</pathCost>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>24</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/FlameAzalea/FlameAzalea_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Spring</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Summer</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>false</CanBloomAgain>
+				<BloomBeautyModifier>3</BloomBeautyModifier>
+				<DeadlyColdTemperature>-25</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_PampasGrass</defName>
+		<label>pampas grass</label>
+		<description>A tall, vigorous ornamental grass famous for its large, feathery white plumes that sway in the wind. It provides structure and height to garden borders and is remarkably resilient.\n\nBlooms from 1st day of summer to 15th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Beauty>8</Beauty>
+			<BeautyOutdoors>8</BeautyOutdoors>
+			<Flammability>1.2</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/PampasGrass/PampasGrass</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/PampasGrass/PampasGrass_Leafless</leaflessGraphicPath>
+			<growDays>2.5</growDays>
+			<sowWork>600</sowWork>
+			<harvestWork>200</harvestWork>
+			<fertilityMin>0.4</fertilityMin>
+			<growMinGlow>0.5</growMinGlow>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>8</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/PampasGrass/PampasGrass_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>15</BloomDayEnd>
+				<BloomTemperatureMin>5</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-20</DeadlyColdTemperature>
+				<LeaflessBeauty>-1</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_PraireFire</defName>
+		<label>prairie fire</label>
+		<description>A hardy, vibrant flower known for its fiery red and orange petals that resemble dancing flames. It is exceptionally resilient and thrives in hot, sunny conditions.\n\nBlooms from 5th day of summer to 10th day of fall.</description>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<BeautyOutdoors>10</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/PraireFire/PraireFire</texPath>
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/PraireFire/PraireFire_Leafless</leaflessGraphicPath>
+			<growDays>1.5</growDays>
+			<sowWork>600</sowWork>
+			<harvestWork>200</harvestWork>
+			<fertilityMin>0.6</fertilityMin>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>2</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>12</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/PraireFire/PraireFire_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Summer</BloomSeasonStart>
+				<BloomDayStart>5</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>10</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2</BloomBeautyModifier>
+				<DeadlyColdTemperature>-20</DeadlyColdTemperature>
+				<LeaflessBeauty>-2</LeaflessBeauty>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_Bloomaris</defName>
+		<label>bloomaris</label>
+		<description>An exotic, decorative fungus that can be grown in caves. It thrives in almost total darkness, emitting a soft, warm glow.\n\nBlooms almost continuously, but only when the light level is below 20%. It will die if temperature falls below -26C.</description>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>6</Beauty>
+			<BeautyOutdoors>6</BeautyOutdoors>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/Bloomaris/Bloomaris</texPath>
+		</graphicData>
+		<pathCost>10</pathCost>
+		<fillPercent>0.1</fillPercent>
+		<plant>
+			<growDays>3</growDays>
+			<sowWork>600</sowWork>
+			<harvestWork>200</harvestWork>
+			<fertilityMin>0.5</fertilityMin>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<cavePlant>true</cavePlant>
+			<diesToLight>true</diesToLight>
+			<pollution>Any</pollution>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>6</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/Bloomaris/Bloomaris_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Winter</BloomSeasonStart>
+				<BloomDayStart>1</BloomDayStart>
+				<BloomSeasonStop>Fall</BloomSeasonStop>
+				<BloomDayEnd>15</BloomDayEnd>
+				<BloomTemperatureMin>-26</BloomTemperatureMin>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>5</BloomBeautyModifier>
+				<DeadlyColdTemperature>-26</DeadlyColdTemperature>
+				<ImmuneToWeeds>true</ImmuneToWeeds>
+				<BloomLightMax>0.5</BloomLightMax>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="VEF.Plants.CompProperties_GlowerBlooming">
+				<glowRadius>5.9</glowRadius>
+				<glowColor>(255,170,0,0)</glowColor>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>
