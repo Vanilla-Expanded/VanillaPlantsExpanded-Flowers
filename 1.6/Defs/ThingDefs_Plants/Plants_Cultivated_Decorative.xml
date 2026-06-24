@@ -1029,6 +1029,8 @@
 			<cavePlant>true</cavePlant>
 			<diesToLight>true</diesToLight>
 			<pollution>Any</pollution>
+			<wildClusterWeight>0</wildClusterWeight>
+			<cavePlantWeight>0</cavePlantWeight>
 		</plant>
 		<modExtensions>
 			<li Class="VEF.Plants.BloomingPlantExtension">
