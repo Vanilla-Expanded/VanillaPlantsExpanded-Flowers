@@ -1,62 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--<ThingDef ParentName="PlantBase">
-		<defName>VPEF_Plant_Rose</defName>
-		<label>rose</label>
-		<thingClass>VEF.Plants.Plant_Blooming</thingClass>
-		<description>A beautiful cultivated flower, the rose has been a symbol of love since Earth's ancient era.\n\nBlooms from 10th day of spring to 5th day of fall.</description>
-		<statBases>
-			<MaxHitPoints>85</MaxHitPoints>
-			<Beauty>14</Beauty>
-			<BeautyOutdoors>14</BeautyOutdoors>
-			<Nutrition>0.05</Nutrition>
-			<Mass>1</Mass>
-		</statBases>
-		<graphicData>
-			<texPath>Things/Flowers/Roses/Roses</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<altitudeLayer>Item</altitudeLayer>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<minifiedDef>VPEF_MinifiedFlower</minifiedDef>
-		<ingestible>
-			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-		</ingestible>
-		<plant>
-			<dieIfLeafless>false</dieIfLeafless>
-			<leaflessGraphicPath>Things/Flowers/Roses/Roses_Leafless</leaflessGraphicPath>
-			<harvestTag>Standard</harvestTag>
-			<sowWork>750</sowWork>
-			<sowTags>
-				<li>Ground</li>
-				<li>Decorative</li>
-			</sowTags>
-			<growMinGlow>0.3</growMinGlow>
-			<topWindExposure>0.1</topWindExposure>
-			<growDays>1.5</growDays>
-			<lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
-			<visualSizeRange>0.3~1.05</visualSizeRange>
-			<wildOrder>1</wildOrder>
-			<purpose>Beauty</purpose>
-		</plant>
-		<modExtensions>
-			<li Class="VEF.Plants.BloomingPlantExtension">
-				<AgeBeautyModifier>1</AgeBeautyModifier>
-				<MaxAgeBeautyModifier>14</MaxAgeBeautyModifier>
-				<bloomGraphicPath>Things/Flowers/Roses/Roses_Blooming</bloomGraphicPath>
-				<BloomSeasonStart>Spring</BloomSeasonStart>
-				<BloomDayStart>10</BloomDayStart>
-				<BloomSeasonStop>Fall</BloomSeasonStop>
-				<BloomDayEnd>5</BloomDayEnd>
-				<BloomTemperatureMin>12</BloomTemperatureMin>
-				<CanBloomAgain>true</CanBloomAgain>
-				<BloomBeautyModifier>2</BloomBeautyModifier>
-				<DeadlyColdTemperature>-15</DeadlyColdTemperature>
-				<LeaflessBeauty>-2</LeaflessBeauty>
-			</li>
-		</modExtensions>
-	</ThingDef>-->
+
 	<ThingDef Name="VPEF_BloomingPlantBase" ParentName="PlantBase" Abstract="true">
 		<thingClass>VEF.Plants.Plant_Blooming</thingClass>
 		<statBases>
@@ -1055,5 +999,46 @@
 				<glowColor>(255,170,0,0)</glowColor>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VPEF_BloomingPlantBase">
+		<defName>VPEF_Plant_PinkCyclamen</defName>
+		<label>pink cyclamen</label>
+		<description>A delicate, low-growing perennial with swept-back petals that seem to dance in the breeze. They prefer cooler temperatures and will not bloom if it’s too hot.\n\nBlooms from 10th day of fall to 10th day of spring.</description>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<Beauty>9</Beauty>
+			<BeautyOutdoors>9</BeautyOutdoors>
+			<Flammability>1</Flammability>
+			<Nutrition>0.03</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Flowers/PinkCyclamen/PinkCyclamen</texPath>
+			
+		</graphicData>
+		<plant>
+			<leaflessGraphicPath>Things/Flowers/PinkCyclamen/PinkCyclamen_Leafless</leaflessGraphicPath>
+			<growDays>1</growDays>
+			<sowWork>500</sowWork>
+			<harvestWork>200</harvestWork>
+			
+			<growMinGlow>0.2</growMinGlow>
+		</plant>
+		<modExtensions>
+			<li Class="VEF.Plants.BloomingPlantExtension">
+				<AgeBeautyModifier>1</AgeBeautyModifier>
+				<MaxAgeBeautyModifier>10</MaxAgeBeautyModifier>
+				<bloomGraphicPath>Things/Flowers/PinkCyclamen/PinkCyclamen_Blooming</bloomGraphicPath>
+				<BloomSeasonStart>Fall</BloomSeasonStart>
+				<BloomDayStart>10</BloomDayStart>
+				<BloomSeasonStop>Spring</BloomSeasonStop>
+				<BloomDayEnd>10</BloomDayEnd>
+				<BloomTemperatureMin>2</BloomTemperatureMin>
+				<BloomTemperatureMax>26</BloomTemperatureMax>
+				<CanBloomAgain>true</CanBloomAgain>
+				<BloomBeautyModifier>2.5</BloomBeautyModifier>
+				<DeadlyColdTemperature>-20</DeadlyColdTemperature>
+				<LeaflessBeauty>-1</LeaflessBeauty>
+			</li>
+		</modExtensions>
 	</ThingDef>
 </Defs>
