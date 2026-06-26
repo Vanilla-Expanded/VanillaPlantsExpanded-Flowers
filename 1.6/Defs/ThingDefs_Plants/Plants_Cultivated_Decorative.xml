@@ -19,6 +19,7 @@
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<minifiedDef>VPEF_MinifiedFlower</minifiedDef>
+		<clearBuildingArea>false</clearBuildingArea>
 		<ingestible>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>
