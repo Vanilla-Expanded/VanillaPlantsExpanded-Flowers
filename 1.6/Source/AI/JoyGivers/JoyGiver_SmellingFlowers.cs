@@ -44,7 +44,7 @@ namespace VanillaPlantsExpandedFlowers
                
                 Plant_Blooming plant = thing as Plant_Blooming;
                 if (plant is null) return false; 
-                if (!plant.isBlooming || plant.LeaflessNow) return false;
+                if (!plant.isBlooming || plant.LeaflessNow || plant.GetExtension.DisableJoyGiver) return false;
                 
                 if (!thing.Fogged()  && pawn.CanReserveAndReach(thing, PathEndMode.Touch, Danger.None))
                 {
